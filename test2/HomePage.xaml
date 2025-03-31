@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=netstandard"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="test2.HomePage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="5">
+
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="This is the test version of an app for Plankton Planet" FontSize="Large"/>
+                        <Span Text="{x:Static system:Environment.NewLine}"/>
+                        <Span Text="{x:Static system:Environment.NewLine}"/>
+                        <Span Text="These are the currently implemented pages:" FontSize="Medium"/>
+                        <Span Text="{x:Static system:Environment.NewLine}"/>
+                        <Span Text="Form, which contains the ability to take down and save test form (WIP)" FontSize="Body" />
+                        <Span Text="{x:Static system:Environment.NewLine}"/>
+                        <Span Text="Send, which contains the ability to send test form (WIP)" FontSize="Body" />
+                        <Span Text="{x:Static system:Environment.NewLine}"/>
+                        <Span Text="Settings, which contains the ability to chang app settings (WIP)" FontSize="Body" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+
