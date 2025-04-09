@@ -6,7 +6,7 @@
 
     <ScrollView>
         <VerticalStackLayout
-            Padding="30,0"
+            Padding="3,0"
             Spacing="5">
 
 
@@ -20,182 +20,149 @@
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <Label
+                Text="Station Info"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
             <HorizontalStackLayout
-                Margin="10"
-                Spacing="20">
-                <StackLayout Margin="20">
-                    <Label
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
+                <Label
                         Text="MMSI number (123456789)" 
                         />
-                    <Entry x:Name="entry1"
-                        Grid.Row="2"
-                        HeightRequest="40"
+                <Entry x:Name="entry1"
                         MaxLength="9"
                         Placeholder="Ship-ID"
                         TextChanged="OnEntryTextChanged"
                         Completed="OnEntryCompleted" />
                 </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="LEG Number (000)" 
-                        />
-                    <Entry x:Name="entry2"
-                        MaxLength="3"
-                        Placeholder="LEG"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
+                <StackLayout Margin="2">
                     <Label
                         Text="Name/Surname" 
-                        />
-                    <Entry x:Name="entry3"
+                    />
+                    <Entry x:Name="entry2"
                         MaxLength="100"
                         Placeholder="Investigator"
                         TextChanged="OnEntryTextChanged"
                         Completed="OnEntryCompleted" />
                 </StackLayout>
-                <StackLayout Margin="20">
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
                     <Label
-                        Text="Station" 
+                        Text="Station Number" 
                     />
-                    <Entry x:Name="entry4"
+                    <Entry x:Name="entry3"
                         MaxLength="3"
                         Placeholder="000"
                         TextChanged="OnEntryTextChanged"
                         Completed="OnEntryCompleted" />
                 </StackLayout>
-             
-            </HorizontalStackLayout>
-            <HorizontalStackLayout
-                Margin="10"
-                Spacing="20">
-                <StackLayout Margin="20">
+                <StackLayout Margin="2">
                     <Label
                         Text="Date" 
                     />
-                    <Entry x:Name="entry5"
-                        Grid.Row="2"
-                        HeightRequest="20"
+                    <Entry x:Name="entry4"
                         MaxLength="10"
                         Placeholder="YYYY-MM-DD"
                         TextChanged="OnEntryTextChanged"
                         Completed="OnEntryCompleted" />
                 </StackLayout>
-                <StackLayout Margin="20">
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="0">
                     <Label
-                        Text="Sea State" 
+                        Text="Precipitation" 
                     />
-                    <Entry x:Name="entry6"
-                        Grid.Row="2"
-                        HeightRequest="20"
+                    <HorizontalStackLayout
+                        Margin="2"
+                        Spacing="2">
+                        <StackLayout Margin="0">
+                            <Image Source="no_prec.png"
+                                WidthRequest="32"
+                                HeightRequest="32"
+                            />
+                            <CheckBox Color="LightCyan" 
+                                x:Name="check_no_prec"
+                            />
+                        </StackLayout>
+                        <StackLayout Margin="0">
+                             <Image Source="light_prec.png"
+                                 WidthRequest="32"
+                                 HeightRequest="32"
+                                 />
+                             <CheckBox Color="LightBlue" 
+                                x:Name="check_lo_prec"
+                             />
+                        </StackLayout>
+                    </HorizontalStackLayout>
+                </StackLayout>
+                <StackLayout Margin="0">
+                    <Label
+                        Text="Cloud Cover" 
+                    />
+                    <HorizontalStackLayout
+                            Margin="2"
+                            Spacing="2">
+                        <StackLayout Margin="0">
+                            <Image Source="no_cloud.png"
+                               WidthRequest="32"
+                               HeightRequest="32"
+                            />
+                            <CheckBox Color="DeepSkyBlue" 
+                                x:Name="check_no_cloud"
+                            />
+                        </StackLayout>
+                        <StackLayout Margin="0">
+                            <Image Source="lo_cloud.png"
+                               WidthRequest="32"
+                               HeightRequest="32"
+                            />
+                            <CheckBox Color="DimGray" 
+                                x:Name="check_lo_cloud"
+                            />
+                        </StackLayout>
+                    </HorizontalStackLayout>
+                </StackLayout>
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Sea State(Beaufort Scale)" 
+                    />
+                    <Entry x:Name="entry5"
                         MaxLength="2"
                         Placeholder="00"
                         TextChanged="OnEntryTextChanged"
                         Completed="OnEntryCompleted" />
                 </StackLayout>
-                <StackLayout Margin="20">
+            </HorizontalStackLayout>
+            <Label
+                Text="Additional Info"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
                     <Label
-                        Text="Precipitation" 
+                        Text="Tow Speed (knots)" 
                     />
-                    <HorizontalStackLayout
-                        Margin="0"
-                        Spacing="0">
-                        <StackLayout Margin="0">
-                            <Image Source="no_prec.png" 
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                            <CheckBox Color="LightCyan" 
-                                x:Name="check_no"
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                        </StackLayout>
-                        <StackLayout Margin="0">
-                            <Image Source="light_prec.png" 
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                            <CheckBox Color="LightBlue" 
-                                x:Name="check_lo"
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                        </StackLayout>
-                        <StackLayout Margin="0">
-                            <Image Source="med_prec.png" 
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                            <CheckBox Color="cyan" 
-                                x:Name="check_mid"
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                        </StackLayout>
-                        <StackLayout Margin="0">
-                            <Image Source="med_prec.png" 
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                            <CheckBox Color="DarkCyan" 
-                                x:Name="check_hi"
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                        </StackLayout>
-                    </HorizontalStackLayout>
+                    <Entry x:Name="entry6"
+                        MaxLength="3"
+                        Placeholder="000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
                 </StackLayout>
-                <StackLayout Margin="20">
+                <StackLayout Margin="2">
                     <Label
-                    Text="Cloud Cover" 
-                    />
-                    <HorizontalStackLayout
-                        Margin="0"
-                        Spacing="0">
-                        <StackLayout Margin="0">
-                            <Image Source="no_cloud.png" 
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                            <CheckBox Color="DeepSkyBlue" 
-                                x:Name="check_no_c"
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                        </StackLayout>
-                        <StackLayout Margin="0">
-                            <Image Source="lo_cloud.png" 
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                            <CheckBox Color="LightBlue" 
-                                x:Name="check_lo_c"
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                        </StackLayout>
-                        <StackLayout Margin="0">
-                            <Image Source="half_cloud.png" 
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                            <CheckBox Color="LightGray" 
-                                x:Name="check_mid_c"
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                        </StackLayout>
-                        <StackLayout Margin="0">
-                            <Image Source="high_cloud.png" 
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                            <CheckBox Color="Gray" 
-                                x:Name="check_hi_c"
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                        </StackLayout>
-                        <StackLayout Margin="0">
-                            <Image Source="high_cloud.png" 
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                            <CheckBox Color="DarkGray" 
-                                x:Name="check_max_c"
-                                HeightRequest="20"
-                                WidthRequest="20"/>
-                        </StackLayout>
-                    </HorizontalStackLayout>
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Cast" 
+                        Text="Air Temp (Cel.)" 
                     />
                     <Entry x:Name="entry7"
                         MaxLength="3"
@@ -203,349 +170,96 @@
                         TextChanged="OnEntryTextChanged"
                         Completed="OnEntryCompleted" />
                 </StackLayout>
-            </HorizontalStackLayout>
-            <Label
-                Text="Sampling"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level1" />
-            <HorizontalStackLayout
-                Margin="10"
-                Spacing="20">
-                <StackLayout Margin="20">
+                <StackLayout Margin="2">
                     <Label
-                        Text="Net Model Tow Type" 
+                        Text="Water Temp (Cel.)" 
                     />
-                    <HorizontalStackLayout
-                        Margin="0"
-                        Spacing="5">
-                        <Label
-                            Text="MystiNet" 
-                            HeightRequest="20"
-                            />
-                        <CheckBox Color="SeaGreen" 
-                            x:Name="mystinet"
-                            HeightRequest="20"
-                            WidthRequest="20"/>
-                        <Label
-                            Text="Classic"
-                            HeightRequest="20"
-                            />
-
-                        <CheckBox Color="SeaGreen" 
-                            x:Name="classic"
-                            HeightRequest="20"
-                            WidthRequest="20"/>
-                        <Label
-                            Text="HSN" 
-                            HeightRequest="20"
-                            />
-                        <CheckBox Color="SeaGreen" 
-                            x:Name="HSN"
-                            HeightRequest="20"
-                            WidthRequest="20"/>
-                        <Label
-                            Text="Diodon" 
-                            HeightRequest="20"
-                            />
-
-                        <CheckBox Color="SeaGreen" 
-                            x:Name="Diodon"
-                            HeightRequest="20"
-                            WidthRequest="20"/>
-                        <Label
-                            Text="Other" 
-                            HeightRequest="20"
-                        />
-                        <Entry x:Name="entry8"
-                            HeightRequest="20"
-                            MaxLength="10"
-                            Placeholder="Name of Method"
-                            TextChanged="OnEntryTextChanged"
-                            Completed="OnEntryCompleted" />
-                    </HorizontalStackLayout>
+                    <Entry x:Name="entry8"
+                        MaxLength="3"
+                        Placeholder="000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
                 </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Tow Type" 
-                    />
-                    <HorizontalStackLayout
-                        Margin="0"
-                        Spacing="5">
-                        <Label
-                            Text="Horizontal" 
-                            HeightRequest="20"
-                        />
-                        <CheckBox Color="AliceBlue" 
-                            x:Name="TTH"
-                            HeightRequest="20"
-                            WidthRequest="20"/>
-                        <Label
-                            Text="Vertical" 
-                            HeightRequest="20"
-                        />
-                        <CheckBox Color="AliceBlue" 
-                            x:Name="TTV"
-                            HeightRequest="20"
-                            WidthRequest="20"/>
-                    </HorizontalStackLayout>
-                </StackLayout>    
             </HorizontalStackLayout>
             <HorizontalStackLayout
-                Margin="10"
-                Spacing="20">
-                <StackLayout Margin="20">
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
                     <Label
-                        Text="Mesh Size (μm)" 
+                        Text="Wind Speed (Knots)" 
                     />
-                    <HorizontalStackLayout
-                        Margin="0"
-                        Spacing="5">
-                        <Label
-                            Text="20 μm" 
-                            HeightRequest="20"
-                        />
-                        <CheckBox Color="Blue" 
-                            x:Name="twentymu"
-                            HeightRequest="20"
-                            WidthRequest="20"/>
-                        <Label
-                            Text="50 μm" 
-                            HeightRequest="20"
-                        />
-                        <CheckBox Color="Blue" 
-                            x:Name="fiftymu"
-                            HeightRequest="20"
-                            WidthRequest="20"/>
-                        <Label
-                            Text="Other:" 
-                            HeightRequest="20"
-                        />
-                        <Entry x:Name="entry9"
-                            HeightRequest="20"
-                            MaxLength="3"
-                            Placeholder="000"
-                            TextChanged="OnEntryTextChanged"
-                            Completed="OnEntryCompleted" />
-                    </HorizontalStackLayout>
+                    <Entry x:Name="entry9"
+                        MaxLength="3"
+                        Placeholder="000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
                 </StackLayout>
-                <StackLayout Margin="20">
+                <StackLayout Margin="2">
                     <Label
-                        Text="Rope Angle (Vs. Vertical)" 
+                        Text="Wind Direction" 
                     />
                     <Entry x:Name="entry10"
-                        HeightRequest="20"
                         MaxLength="3"
                         Placeholder="000"
                         TextChanged="OnEntryTextChanged"
                         Completed="OnEntryCompleted" />
                 </StackLayout>
-                <StackLayout Margin="20">
+                <StackLayout Margin="2">
                     <Label
-                        Text="Depth Min (m)" 
+                        Text="Waves Direction" 
                     />
                     <Entry x:Name="entry11"
-                        HeightRequest="20"
-                        MaxLength="3"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Depth Max (m)" 
-                    />
-                    <Entry x:Name="entry12"
-                        HeightRequest="20"
-                        MaxLength="3"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Rope Out (in water) (m)" 
-                    />
-                    <Entry x:Name="entry13"
-                        HeightRequest="20"
                         MaxLength="3"
                         Placeholder="000"
                         TextChanged="OnEntryTextChanged"
                         Completed="OnEntryCompleted" />
                 </StackLayout>
             </HorizontalStackLayout>
-            <HorizontalStackLayout
-                Margin="10"
-                Spacing="20">
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Starting Latitude" 
-                    />
-                    <Entry x:Name="entry14"
-                        HeightRequest="20"
-                        MaxLength="11"
-                        Placeholder="N/S-DD-MM.MMM"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Starting Longitude" 
-                    />
-                    <Entry x:Name="entry15"
-                        HeightRequest="20"
-                        MaxLength="11"
-                        Placeholder="E/W-DD-MM.MMM"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Starting Time (UTC)" 
-                    />
-                    <Entry x:Name="entry16"
-                        HeightRequest="20"
-                        MaxLength="5"
-                        Placeholder="HH-MM"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-            </HorizontalStackLayout>
-            <HorizontalStackLayout
-                Margin="10"
-                Spacing="20">
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Ending Latitude" 
-                    />
-                    <Entry x:Name="entry17"
-                        HeightRequest="20"
-                        MaxLength="11"
-                        Placeholder="N/S-DD-MM.MMM"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Ending Longitude" 
-                    />
-                    <Entry x:Name="entry18"
-                        HeightRequest="20"
-                        MaxLength="11"
-                        Placeholder="E/W-DD-MM.MMM"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Ending Time (UTC)" 
-                    />
-                    <Entry x:Name="entry19"
-                        HeightRequest="20"
-                        MaxLength="5"
-                        Placeholder="HH-MM"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-            </HorizontalStackLayout>
-            <Editor x:Name="entry20"
-                Placeholder="Comments:"
-                HeightRequest="250"
+            <Editor x:Name="entry12"
+                Placeholder="List of Observed Seabirds (Seperate by Newline)"
+                HeightRequest="50"
+                TextChanged="OnEditorTextChanged"
+                Completed="OnEditorCompleted" />
+            <Editor x:Name="entry13"
+                Placeholder="List of Observed Debris (Seperate by Newline)"
+                HeightRequest="50"
+                TextChanged="OnEditorTextChanged"
+                Completed="OnEditorCompleted" />
+            <Editor x:Name="entry14"
+                Placeholder="Other Comments"
+                HeightRequest="50"
                 TextChanged="OnEditorTextChanged"
                 Completed="OnEditorCompleted" />
             <Label
-                Text="Additional Infos"
-                Style="{StaticResource SubHeadline}"
+                Text="Filtration Treatment"
+                Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
+            <Label
+                Text="Higher Fraction"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+            <Label
+                Text="Filter 1" 
+            />
             <HorizontalStackLayout
-                Margin="10"
-                Spacing="20">
-                <StackLayout Margin="20">
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
                     <Label
-                        Text="Tow Speed (knots)" 
+                        Text="Pre-Filtration (um)" 
                     />
-                    <Entry x:Name="entry21"
-                        HeightRequest="20"
-                        MaxLength="3"
-                        Placeholder="E/W-DD-MM.MMM"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="CTD Model Name" 
-                    />
-                    <Entry x:Name="entry22"
-                        HeightRequest="20"
-                        MaxLength="50"
-                        Placeholder="Name"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="CTD Rope Out" 
-                    />
-                    <Entry x:Name="entry23"
-                        HeightRequest="20"
+                    <Entry x:Name="entry15"
                         MaxLength="3"
                         Placeholder="000"
                         TextChanged="OnEntryTextChanged"
                         Completed="OnEntryCompleted" />
                 </StackLayout>
-            </HorizontalStackLayout>
-            <HorizontalStackLayout
-                Margin="10"
-                Spacing="20">
-                <StackLayout Margin="20">
+                <StackLayout Margin="2">
                     <Label
-                        Text="Air Temp (°C)" 
+                        Text="Filtration Porosity (um)" 
                     />
-                    <Entry x:Name="entry24"
-                        HeightRequest="20"
-                        MaxLength="3"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Sea Water Temp (°C)" 
-                    />
-                    <Entry x:Name="entry25"
-                        HeightRequest="20"
-                        MaxLength="3"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Wind Speed (knots)" 
-                    />
-                    <Entry x:Name="entry26"
-                        HeightRequest="20"
-                        MaxLength="3"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Wind Direction (°)" 
-                    />
-                    <Entry x:Name="entry27"
-                        HeightRequest="20"
-                        MaxLength="3"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Wave Direction (°)" 
-                    />
-                    <Entry x:Name="entry28"
-                        HeightRequest="20"
+                    <Entry x:Name="entry16"
                         MaxLength="3"
                         Placeholder="000"
                         TextChanged="OnEntryTextChanged"
@@ -553,403 +267,392 @@
                 </StackLayout>
 
             </HorizontalStackLayout>
-            <HorizontalStackLayout
-                Margin="20"
-                Spacing="20">
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Flowmeter Model" 
-                    />
-                    <Entry x:Name="entry29"
-                        HeightRequest="20"
-                        MaxLength="50"
-                        Placeholder="Name"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Flowmeter Start" 
-                    />
-                    <Entry x:Name="entry30"
-                        HeightRequest="20"
-                        MaxLength="5"
-                        Placeholder="00000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Flowmeter End" 
-                    />
-                    <Entry x:Name="entry31"
-                        HeightRequest="20"
-                        MaxLength="5"
-                        Placeholder="00000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Secchi Disc Dissapearing Point (m)" 
-                    />
-                    <Entry x:Name="entry32"
-                        HeightRequest="20"
-                        MaxLength="2"
-                        Placeholder="00"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Secchi Disc Again Sighted (m)" 
-                    />
-                    <Entry x:Name="entry33"
-                        HeightRequest="20"
-                        MaxLength="2"
-                        Placeholder="00"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-            </HorizontalStackLayout>
-            <Editor x:Name="entry34"
-                Placeholder="Comments:"
-                HeightRequest="250"
-                TextChanged="OnEditorTextChanged"
-                Completed="OnEditorCompleted" />
-            <Label
-                Text="Filtration Treatmet"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level1" />
-            <HorizontalStackLayout
-                Margin="20"
-                Spacing="10">
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Filter 1 Porosity (μm)" 
-                    />
-                    <Entry x:Name="entry35"
-                        HeightRequest="20"
-                        MaxLength="2"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Filter 1 Start Time (UTC)" 
-                    />
-                    <Entry x:Name="entry36"
-                        HeightRequest="20"
-                        MaxLength="5"
-                        Placeholder="HH-MM"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Filter 1 End Time (UTC)" 
-                    />
-                    <Entry x:Name="entry37"
-                        HeightRequest="20"
-                        MaxLength="5"
-                        Placeholder="HH-MM"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Filter 1 Tube ID" 
-                    />
-                    <Entry x:Name="entry38"
-                        HeightRequest="20"
-                        MaxLength="2"
-                        Placeholder="00"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Filter 1 Filtered Volume" 
-                    />
-                    <Entry x:Name="entry39"
-                        HeightRequest="20"
-                        MaxLength="3"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                            Text="Saturation" 
-                            HeightRequest="20"
-                        />
-                    <CheckBox Color="Blue" 
-                            x:Name="saturation1"
-                            HeightRequest="20"
-                            WidthRequest="20"/>
-                </StackLayout>
-            </HorizontalStackLayout>
-            <HorizontalStackLayout
-                Margin="20"
-                Spacing="10">
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Filter 2 Porosity (μm)" 
-                    />
-                    <Entry x:Name="entry40"
-                        HeightRequest="20"
-                        MaxLength="2"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Filter 2 Start Time (UTC)" 
-                    />
-                    <Entry x:Name="entry41"
-                        HeightRequest="20"
-                        MaxLength="5"
-                        Placeholder="HH-MM"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Filter 2 End Time (UTC)" 
-                    />
-                    <Entry x:Name="entry42"
-                        HeightRequest="20"
-                        MaxLength="5"
-                        Placeholder="HH-MM"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Filter 2 Tube ID" 
-                    />
-                    <Entry x:Name="entry43"
-                        HeightRequest="20"
-                        MaxLength="2"
-                        Placeholder="00"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Filter 2 Filtered Volume" 
-                    />
-                    <Entry x:Name="entry44"
-                        HeightRequest="20"
-                        MaxLength="3"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                            Text="Saturation" 
-                            HeightRequest="20"
-                        />
-                    <CheckBox Color="Blue" 
-                            x:Name="saturation2"
-                            HeightRequest="20"
-                            WidthRequest="20"/>
-                </StackLayout>
-            </HorizontalStackLayout>
-            <StackLayout Margin="20">
+            <StackLayout Margin="2">
                 <Label
-                    Text="Final Volume After Rinsing (ml)" 
-                    HeightRequest="20"
+                    Text="Final Volume after net rinsing (ml)" 
                 />
-                <Entry x:Name="entry45"
-                    HeightRequest="20"
-                    MaxLength="3"
-                    Placeholder="000"
+                <Entry x:Name="entry17"
+                    MaxLength="4"
+                    Placeholder="0000"
                     TextChanged="OnEntryTextChanged"
                     Completed="OnEntryCompleted" />
             </StackLayout>
-            <Editor x:Name="entry46"
-                Placeholder="Comments:"
-                HeightRequest="250"
-                TextChanged="OnEditorTextChanged"
-                Completed="OnEditorCompleted" />
-            <Label
-                Text="Imaging Treatment"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level1" />
             <HorizontalStackLayout
-                Margin="20"
-                Spacing="10">
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 1 Project Name" 
-                    />
-                    <Entry x:Name="entry47"
-                        HeightRequest="20"
-                        MaxLength="50"
-                        Placeholder="Name"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 1 Station ID" 
-                    />
-                    <Entry x:Name="entry48"
-                        HeightRequest="20"
-                        MaxLength="50"
-                        Placeholder="000-000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 1 Dilution" 
-                    />
-                    <Entry x:Name="entry49"
-                        HeightRequest="20"
-                        MaxLength="1"
-                        Placeholder="0"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 1 Acq ID ti Import" 
-                    />
-                    <Entry x:Name="entry50"
-                        HeightRequest="20"
-                        MaxLength="3"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 1 Nb of images" 
-                    />
-                    <Entry x:Name="entry51"
-                        HeightRequest="20"
-                        MaxLength="4"
-                        Placeholder="0000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 1 Nb of objects" 
-                    />
-                    <Entry x:Name="entry52"
-                        HeightRequest="20"
-                        MaxLength="4"
-                        Placeholder="0000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-            </HorizontalStackLayout>
-            <HorizontalStackLayout
-                Margin="20"
-                Spacing="10">
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 2 Project Name" 
-                    />
-                    <Entry x:Name="entry53"
-                        HeightRequest="20"
-                        MaxLength="50"
-                        Placeholder="Name"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 2 Station ID" 
-                    />
-                    <Entry x:Name="entry54"
-                        HeightRequest="20"
-                        MaxLength="50"
-                        Placeholder="000-000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 2 Dilution" 
-                    />
-                    <Entry x:Name="entry55"
-                        HeightRequest="20"
-                        MaxLength="1"
-                        Placeholder="0"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 2 Acq ID ti Import" 
-                    />
-                    <Entry x:Name="entry56"
-                        HeightRequest="20"
-                        MaxLength="3"
-                        Placeholder="000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 2 Nb of images" 
-                    />
-                    <Entry x:Name="entry57"
-                        HeightRequest="20"
-                        MaxLength="4"
-                        Placeholder="0000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-                <StackLayout Margin="20">
-                    <Label
-                        Text="Treatment 2 Nb of objects" 
-                    />
-                    <Entry x:Name="entry58"
-                        HeightRequest="20"
-                        MaxLength="4"
-                        Placeholder="0000"
-                        TextChanged="OnEntryTextChanged"
-                        Completed="OnEntryCompleted" />
-                </StackLayout>
-            </HorizontalStackLayout>
-            <StackLayout Margin="20">
+                Margin="2"
+                Spacing="2">
                 <Label
-                        Text="Final Volume after Net Rinsing (ml)" 
+                    x:Name = "label_highfrac_1_start"
+                    Text="Press Button for Start Location and Time" 
+                />
+                <Button 
+                    Text="Start" 
+                    Clicked="GetLocationDate1"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <Label
+                    x:Name = "label_highfrac_1_end"
+                    Text="Press Button for End Location and Time" 
+                />
+                <Button 
+                    Text="Start" 
+                    Clicked="GetLocationDate2"/>
+
+            </HorizontalStackLayout>
+            <Label
+                Text="Filter 2" 
+            />
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Pre-Filtration (um)" 
                     />
-                <Entry x:Name="entry59"
-                        HeightRequest="20"
+                    <Entry x:Name="entry18"
                         MaxLength="3"
                         Placeholder="000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Filtration Porosity (um)" 
+                    />
+                    <Entry x:Name="entry19"
+                        MaxLength="3"
+                        Placeholder="000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+
+            </HorizontalStackLayout>
+            <StackLayout Margin="2">
+                <Label
+                    Text="Final Volume after net rinsing (ml)" 
+                />
+                <Entry x:Name="entry20"
+                    MaxLength="4"
+                    Placeholder="0000"
+                    TextChanged="OnEntryTextChanged"
+                    Completed="OnEntryCompleted" />
+            </StackLayout>
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <Label
+                    x:Name = "label_highfrac_2_start"
+                    Text="Press Button for Start Location and Time" 
+                />
+                <Button 
+                    Text="Start" 
+                    Clicked="GetLocationDate3"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <Label
+                    x:Name = "label_highfrac_2_end"
+                    Text="Press Button for End Location and Time" 
+                />
+                <Button 
+                    Text="Start" 
+                    Clicked="GetLocationDate4"/>
+            </HorizontalStackLayout>
+
+            <Label
+                Text="Lower Fraction"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+            <Label
+                Text="Filter 1" 
+            />
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Pre-Filtration (um)" 
+                    />
+                    <Entry x:Name="entry21"
+                        MaxLength="3"
+                        Placeholder="000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Filtration Porosity (um)" 
+                    />
+                    <Entry x:Name="entry22"
+                        MaxLength="3"
+                        Placeholder="000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+
+            </HorizontalStackLayout>
+            <StackLayout Margin="2">
+                <Label
+                    Text="Final Volume after net rinsing (ml)" 
+                />
+                <Entry x:Name="entry23"
+                    MaxLength="4"
+                    Placeholder="0000"
+                    TextChanged="OnEntryTextChanged"
+                    Completed="OnEntryCompleted" />
+            </StackLayout>
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <Label
+                    x:Name = "label_lowfrac_1_start"
+                    Text="Press Button for Start Location and Time" 
+                />
+                <Button 
+                    Text="Start" 
+                    Clicked="GetLocationDate5"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <Label
+                    x:Name = "label_lowfrac_1_end"
+                    Text="Press Button for End Location and Time" 
+                />
+                <Button 
+                    Text="Start" 
+                    Clicked="GetLocationDate6"/>
+
+            </HorizontalStackLayout>
+            <Label
+                Text="Filter 2" 
+            />
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Pre-Filtration (um)" 
+                    />
+                    <Entry x:Name="entry24"
+                        MaxLength="3"
+                        Placeholder="000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Filtration Porosity (um)" 
+                    />
+                    <Entry x:Name="entry25"
+                        MaxLength="3"
+                        Placeholder="000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+
+            </HorizontalStackLayout>
+            <StackLayout Margin="2">
+                <Label
+                    Text="Final Volume after net rinsing (ml)" 
+                />
+                <Entry x:Name="entry26"
+                    MaxLength="4"
+                    Placeholder="0000"
+                    TextChanged="OnEntryTextChanged"
+                    Completed="OnEntryCompleted" />
+            </StackLayout>
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <Label
+                    x:Name = "label_lowfrac_2_start"
+                    Text="Press Button for Start Location and Time" 
+                />
+                <Button 
+                    Text="Start" 
+                    Clicked="GetLocationDate7"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <Label
+                    x:Name = "label_lowfrac_2_end"
+                    Text="Press Button for End Location and Time" 
+                />
+                <Button 
+                    Text="Start" 
+                    Clicked="GetLocationDate8"/>
+
+            </HorizontalStackLayout>
+            <Label
+                Text="Curiosity Microscope"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+            <StackLayout Margin="2">
+                 <Label
+                    Text="Folder Name" 
+                 />
+                 <Entry x:Name="entry27"
+                      MaxLength="30"
+                      Placeholder="Planktospace_shipID_date_stationNB"
+                      TextChanged="OnEntryTextChanged"
+                      Completed="OnEntryCompleted" />
+            </StackLayout>
+            <StackLayout Margin="2">
+                <Label
+                    Text="Dilution Factor" 
+                    />
+                <Entry x:Name="entry28"
+                        MaxLength="2"
+                        Placeholder="00"
                         TextChanged="OnEntryTextChanged"
                         Completed="OnEntryCompleted" />
             </StackLayout>
-            <Editor x:Name="entry60"
-                Placeholder="Comments:"
-                HeightRequest="250"
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Nicotine Drops" 
+                    />
+                    <Entry x:Name="entry29"
+                        MaxLength="2"
+                        Placeholder="00"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Aquisition Time (UTC)" 
+                    />
+                    <Entry x:Name="entry30"
+                        MaxLength="5"
+                        Placeholder="HH:MM"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+            </HorizontalStackLayout>
+            <Image
+                x:Name="MyImage"
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit" />
+            <toolkit:CameraView 
+                x:Name="MyCamera" 
+                MediaCaptured="MyCamera_MediaCaptured" />
+            <Button
+                x:Name="picture_taker"
+                Text="Take Picture" 
+                SemanticProperties.Hint="Takes a picture"
+                Clicked="TakePicture"
+                HorizontalOptions="Fill" />
+            <Editor x:Name="entry31"
+                Placeholder="Comments"
+                HeightRequest="50"
+                TextChanged="OnEditorTextChanged"
+                Completed="OnEditorCompleted" />
+            <Label
+                Text="PlanktoScope"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Project Name" 
+                    />
+                    <Entry x:Name="entry32"
+                        MaxLength="20"
+                        Placeholder="Text"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+                <StackLayout Margin="2">
+                    <Label
+                    Text="Dilution Factor" 
+                    />
+                    <Entry x:Name="entry33"
+                        MaxLength="2"
+                        Placeholder="00"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
+                    <Label
+                    Text="Aquisition ID" 
+                    />
+                    <Entry x:Name="entry34"
+                        MaxLength="3"
+                        Placeholder="000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Aquisition Time (UTC)" 
+                    />
+                    <Entry x:Name="entry35"
+                        MaxLength="5"
+                        Placeholder="HH:MM"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+                Margin="2"
+                Spacing="2">
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Nb of Images" 
+                    />
+                    <Entry x:Name="entry36"
+                        MaxLength="4"
+                        Placeholder="0000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+                <StackLayout Margin="2">
+                    <Label
+                        Text="Nb of Images" 
+                    />
+                    <Entry x:Name="entry37"
+                        MaxLength="4"
+                        Placeholder="0000"
+                        TextChanged="OnEntryTextChanged"
+                        Completed="OnEntryCompleted" />
+                </StackLayout>
+            </HorizontalStackLayout>
+            <Editor x:Name="entry38"
+                Placeholder="Comments"
+                HeightRequest="50"
                 TextChanged="OnEditorTextChanged"
                 Completed="OnEditorCompleted" />
             <HorizontalStackLayout
-                Margin="20"
-                Spacing="20">
+                Margin="2"
+                Spacing="2">
                 <Button 
                     Text="Save" 
                     Clicked="OnSaveButtonClicked" />
 
                 <Button 
                     Text="Delete" 
-                    Clicked="OnDeleteButtonClicked" />
+                    Clicked="OnDeleteButtonClicked"/>
 
-                <Button 
-                    Text="Take Picture" 
-                    Clicked="OnSaveButtonClicked" />
             </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>

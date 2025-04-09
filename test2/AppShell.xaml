@@ -12,11 +12,17 @@
         Title="Home"
         ContentTemplate="{DataTemplate local:HomePage}"
         Route="HomePage" 
-        Icon="forms"/>
+        Icon="home"/>
     
     <ShellContent
         Title="Form"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" 
         Icon="forms"/>
+
+    <ShellContent
+        Title="Saved Forms"
+        ContentTemplate="{DataTemplate local:SavedPage}"
+        Route="SavedPage" 
+        Icon="saved"/>
 </Shell>

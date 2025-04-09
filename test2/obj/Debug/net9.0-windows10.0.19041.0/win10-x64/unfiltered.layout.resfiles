@@ -1,4 +1,3 @@
-runtimes\win-x64\native\WebView2Loader.dll
 FluentUI.cs
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
@@ -57,12 +56,14 @@ forms.scale-100.png
 half_cloud.scale-100.png
 heavy_prec.scale-100.png
 high_cloud.scale-100.png
+home.scale-100.png
 light_prec.scale-100.png
 lo_cloud.scale-100.png
 max_cloud.scale-100.png
 med_prec.scale-100.png
 no_cloud.scale-100.png
 no_prec.scale-100.png
+saved.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png

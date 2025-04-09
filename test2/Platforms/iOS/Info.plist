@@ -28,5 +28,21 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/appicon.appiconset</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Need access to take microscope data and other pictures</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Need Location to Get Accurate Coordinates</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+  	<key>TemporaryFullAccuracyUsageDescription</key>
+  	<string>Need Accurate Location to Get Accurate Coordinates</string>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 </dict>
 </plist>

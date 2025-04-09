@@ -1,0 +1,306 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bac0n\\source\\repos\\test2\\test2\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\savedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\savedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bac0n\\.nuget\\packages\\communitytoolkit.maui.camera\\2.0.3\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bac0n\\source\\repos\\plankton_planet\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\test2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\test2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\platforms\\ios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\platforms\\ios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\resources\\appicon\\appiconfg.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\resources\\appicon\\appiconfg.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|c:\\users\\bac0n\\source\\repos\\plankton-planet\\test2\\test2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CE63AA54-625E-4AC4-8BD3-DBF0F355B1BB}|test2\\test2.csproj|solutionrelative:test2\\test2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\test2\\test2\\MainPage.xaml",
+              "RelativeDocumentMoniker": "..\\test2\\test2\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\test2\\test2\\MainPage.xaml",
+              "RelativeToolTip": "..\\test2\\test2\\MainPage.xaml",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAAE4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T20:10:47.099Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "test2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "test2\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA5wEQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T11:02:57.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SavedPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\SavedPage.xaml.cs",
+              "RelativeDocumentMoniker": "test2\\SavedPage.xaml.cs",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\SavedPage.xaml.cs",
+              "RelativeToolTip": "test2\\SavedPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T10:09:23.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "test2\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\AppShell.xaml.cs",
+              "RelativeToolTip": "test2\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T09:46:39.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "test2\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\HomePage.xaml.cs",
+              "RelativeToolTip": "test2\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T23:42:23.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "test2\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\MainPage.xaml.cs",
+              "RelativeToolTip": "test2\\MainPage.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwC4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T21:39:50.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\MainPage.xaml",
+              "RelativeDocumentMoniker": "test2\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\MainPage.xaml",
+              "RelativeToolTip": "test2\\MainPage.xaml",
+              "ViewState": "AgIAABwCAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T18:16:07.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\App.xaml",
+              "RelativeDocumentMoniker": "test2\\App.xaml",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\App.xaml",
+              "RelativeToolTip": "test2\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T09:46:29.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\AppShell.xaml",
+              "RelativeDocumentMoniker": "test2\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\AppShell.xaml",
+              "RelativeToolTip": "test2\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T09:46:40.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\App.xaml.cs",
+              "RelativeDocumentMoniker": "test2\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\App.xaml.cs",
+              "RelativeToolTip": "test2\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T09:46:34.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\HomePage.xaml",
+              "RelativeDocumentMoniker": "test2\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\HomePage.xaml",
+              "RelativeToolTip": "test2\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T09:43:43.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "test2\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\MauiProgram.cs",
+              "RelativeToolTip": "test2\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T21:39:47.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\bac0n\\.nuget\\packages\\communitytoolkit.maui.camera\\2.0.3\\ReadMe.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui.camera\\2.0.3\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\bac0n\\.nuget\\packages\\communitytoolkit.maui.camera\\2.0.3\\ReadMe.txt",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui.camera\\2.0.3\\ReadMe.txt",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-09T08:30:14.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton_planet\\MainPage.xaml",
+              "RelativeDocumentMoniker": "..\\plankton_planet\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton_planet\\MainPage.xaml",
+              "RelativeToolTip": "..\\plankton_planet\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T08:23:41.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "test2.csproj",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\test2.csproj",
+              "RelativeDocumentMoniker": "test2\\test2.csproj",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\test2.csproj",
+              "RelativeToolTip": "test2\\test2.csproj",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowDIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T21:42:03.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "test2",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\test2.csproj",
+              "RelativeDocumentMoniker": "test2\\test2.csproj",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\test2.csproj",
+              "RelativeToolTip": "test2\\test2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T23:38:40.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\Platforms\\iOS\\Program.cs",
+              "RelativeDocumentMoniker": "test2\\Platforms\\iOS\\Program.cs",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\Platforms\\iOS\\Program.cs",
+              "RelativeToolTip": "test2\\Platforms\\iOS\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T21:50:49.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appiconfg.svg",
+              "DocumentMoniker": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\Resources\\AppIcon\\appiconfg.svg",
+              "RelativeDocumentMoniker": "test2\\Resources\\AppIcon\\appiconfg.svg",
+              "ToolTip": "C:\\Users\\bac0n\\source\\repos\\plankton-planet\\test2\\Resources\\AppIcon\\appiconfg.svg",
+              "RelativeToolTip": "test2\\Resources\\AppIcon\\appiconfg.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP8SURBVDhPrZRdbJNVGMd/p33b9Qtqt9HZbe2woKxsbGDYpk5DQAkTFcQPjJgY44XGEI3GmBBMNNmVNxoWojei8VITgyzGCwgRyRjJZM5JlvERt0C3dVu3rt3bD7r3bc/xYt0o4CX/5Mn5/uc85/zOgfsppZS4u6\u002Bnp\u002BdYc3PzB6VxlFIrcwGQUpLP58lms71Hjhw5PDExEbvT4S719PSMSillsVj83ygUCnJ4eFgODg7K48eP/xyJRDaVr7eWNwC6uroOd3R0VEsFBSOFzF1GZL7DmP0Rc/o3AP6dNNne1oHT6Qzb7fb6qampy4lEInGPob39NdHY2n74aq6i\u002BvpUP2sL3\u002BCc/ZZC7AyITUgVpBC/yMQcNDzSjs/n01wu18bKysrglStXLqTT6fSyoRC4H93nCz33zudrAqFn2iI2\u002B66aY3hnTjM8vpVf9A8ZqzjElta9yLlRMqabC0M3GBoaQtd1q8/ni5w/f/6nVCoV0wAczXu8Dfvf/\u002BTp7fXvvrxlzLVdfkriWo7\u002B7FGuh19kwnBycWyGrHmDV/xNNLZuoB4/hmHg8XgYGRlZzdIC4O96r7Mjsu6Ng00Da9tyH4vF4TxTopvcugPYsuA2C4TW13Jprkhf8iHEmhDV1VUEAgG8Xi9Wq3WVAgtAQ8Bz4IXG0aoW8ysxP2jiavmBLY8d4OC2AK\u002B3VJOZnsNnr0C4nQwmbMznLaX9KChDC0AD2Lwu9dTj3u\u002BdmXEHX5ufMfmHDbPwD1IpFJJ8UaNKs2Cz2xifWyKZNqhd60ApQNxmFECrDWj2t1pO19uiY\u002BKc5QvlbtstwsrC8mxKpgrzloFhmCwVChSUKg0r1F0PQJu8GtqfHP\u002B1YiDzthoN7in\u002BefGadWuNSygpUUohlQIUQirqkLQGPfg99pLZna8IQFN67NXZm3VL54o7MbNKczttls5wtdhW58br0NDzJgM3kkSTOVCKoM\u002BFx6GtJLB8jmXS8pP5zmS24vf\u002BGW1zSEs11ITrxJnpHGeuz6IME82uUfRUkSy6WIgv8KxFYLPc/gJWUl6RpbAonHuPLh2Kzcx/eW10PHFzOq0M9xoIrUdsfJilugbiShCPJwg7CjzfXIPdunLL98p69E38Ox5Mhi/1X\u002B1rCNjMTMps1DPSPRlfJDGf4lZiAVt6kaYHND7auYFKtx2EWEVGCEE0GuXUqVMndF2PWdfXMhCbYVfEPrujLt43Eqhvde1\u002B4slGv63IJq9Ge62bfU1\u002BXtpai8OmLW\u002BjhAuAsFiIRifo7e09oev6vV9Zd3d3n5RSmqZZCkOaxnIYq7G0WpqmKc\u002BePSuDwWAbK2CXSyn118mTJztL9WV0SgiV95Wzp\u002Bv638DCnU73Sf8B3E0j/55GTsEAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-04-08T21:37:18.156Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
